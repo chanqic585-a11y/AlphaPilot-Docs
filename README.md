@@ -1,8 +1,14 @@
 # AlphaPilot Docs
 
-AlphaPilot Docs stores the roadmap, version prompts, schemas, skills, and plugin notes for the AlphaPilot product line.
+AlphaPilot Docs stores the roadmap, version prompts, schemas, skills,
+and plugin notes for the AlphaPilot product line.
 
-AlphaPilot is a local-first trading discipline and AI copilot project. It does not provide investment advice, connect trading permissions, save trade or withdraw API keys, or place orders automatically.
+AlphaPilot is a local-first trading discipline and AI copilot project.
+
+It does not provide investment advice.
+It does not connect trading permissions.
+It does not save trade or withdraw API keys.
+It does not place orders automatically.
 
 ## Repository structure
 
@@ -30,4 +36,3 @@ All AlphaPilot documentation must preserve these rules:
 - Do not save trade-permission API keys
 - Do not save withdraw-permission API keys
 - Do not place orders automatically
-
