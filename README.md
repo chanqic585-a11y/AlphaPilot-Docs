@@ -1,14 +1,33 @@
 # AlphaPilot Docs
 
-AlphaPilot Docs is the documentation and prompt repository for the local-first trading discipline and AI copilot product line.
+AlphaPilot Docs stores the roadmap, version prompts, schemas, skills, and plugin notes for the AlphaPilot product line.
 
-The product does not provide investment advice, does not connect trading permissions, does not save trade or withdraw API keys, and does not place orders automatically.
+AlphaPilot is a local-first trading discipline and AI copilot project. It does not provide investment advice, connect trading permissions, save trade or withdraw API keys, or place orders automatically.
 
-## Structure
+## Repository structure
 
-- `docs/` - product roadmap, architecture notes, and design documents.
-- `prompts/` - versioned prompts for implementation and product iterations.
-- `schemas/` - local data schemas and future export formats.
-- `skills/` - reusable Codex skills or operating instructions.
-- `plugins/` - plugin specifications and integration notes.
+- `docs/`: Product roadmap, architecture notes, and design documents
+- `prompts/`: Versioned prompts for implementation and product iterations
+- `schemas/`: Local data schemas and future export formats
+- `skills/`: Reusable Codex skills or operating instructions
+- `plugins/`: Plugin specifications and integration notes
+
+## Key documents
+
+- `docs/00-roadmap.md`: Main AlphaPilot roadmap
+- `docs/AlphaPilot_软件设计文档_阶段提示词.md`: Original design document and phased prompts
+- `prompts/V1.1-fix-current-app.md`: Current app stabilization prompt
+- `prompts/V2-ai-trading-copilot.md`: AI Trading Copilot prompt
+- `prompts/V3-feature-database.md`: Feature Database prompt
+
+## Safety boundary
+
+All AlphaPilot documentation must preserve these rules:
+
+- Do not provide buy or sell recommendations
+- Do not predict future prices
+- Do not promise profit
+- Do not save trade-permission API keys
+- Do not save withdraw-permission API keys
+- Do not place orders automatically
 

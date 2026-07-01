@@ -1,12 +1,8 @@
-# V2 AI Trading Copilot Prompt
+# V2 AI Trading Copilot prompt
 
-## Role
+## Goal
 
-你是 Senior Product Designer + Senior React Native Engineer + Quant Trading Software Engineer。
-
-目标不是继续增加交易日记功能，而是把产品升级为真正帮助交易者减少亏损的 AI Trading Copilot。
-
-## Product Positioning
+把产品从交易日记升级为 AI Trading Copilot，让交易者用更少输入完成交易记录，并由系统自动生成客观市场分析、风险提示和复盘材料。
 
 产品名称暂定：
 
@@ -17,16 +13,27 @@
 
 > 一个不会替你交易、不会预测行情、不会自动下单，而是陪伴交易者完成整个交易生命周期的 AI 副驾驶。
 
-原则：
+## Scope
 
-- 减少输入。
-- 增加 AI 自动分析。
-- 减少人为记录。
-- 增加数据自动收集。
+V2 聚焦减少手动输入和增加自动分析。
 
-## Core Philosophy
+包含范围：
 
-交易员最大的敌人不是市场，而是自己。
+- 新建交易的 10 秒记录流程
+- AI 或规则引擎生成的客观分析
+- 自动形态识别
+- 自动开仓分析
+- 截图接口预留
+- 风险计算
+- OKX 公共行情提醒
+- AI 复盘
+- Trading Memory 长期分析方向
+- React Native + Expo + TypeScript 架构延续
+- SQLite 本地数据库延续
+
+## Requirements
+
+### Product principles
 
 产品必须围绕：
 
@@ -35,20 +42,23 @@
 - 风险
 - 执行
 
-UI 风格参考 Apple Health、Notion、Linear、Arc Browser。不要像 Binance、OKX 或 TradingView。
+UI 风格参考 Apple Health、Notion、Linear、Arc Browser。
 
-颜色：
+视觉要求：
 
 - 白色
 - 灰色
 - 深蓝
 - 少量橙色警告
+- 不像 Binance
+- 不像 OKX
+- 不像 TradingView
 
-## New Trade Flow
+### New trade flow
 
 废弃旧的十几个字段表单作为主流程。
 
-点击【新建交易】，只输入：
+点击【新建交易】后，只输入：
 
 1. 币种
 2. 方向：做多 / 做空
@@ -56,11 +66,11 @@ UI 风格参考 Apple Health、Notion、Linear、Arc Browser。不要像 Binance
 4. 仓位金额
 5. 杠杆，最高 5 倍
 
-点击【开始记录】。
+点击【开始记录】后保存交易。
 
 目标：10 秒内完成记录。
 
-## AI Auto Analysis
+### AI auto analysis
 
 保存交易后，AI 自动分析并记录：
 
@@ -79,18 +89,13 @@ UI 风格参考 Apple Health、Notion、Linear、Arc Browser。不要像 Binance
 - 第一目标
 - 第二目标
 
-注意：只做客观分析，不预测未来，不推荐买卖。
+所有输出只能描述当前市场客观状态。
 
-禁止生成：
+### Pattern detection
 
-- 建议买
-- 建议卖
-- 一定会上涨
-- 一定会下跌
+AI 自动判断当前形态，并给出可信度。
 
-## Pattern Detection
-
-AI 自动判断当前形态，并给出可信度，例如：
+形态包括：
 
 - 首次回踩突破
 - 平台突破
@@ -100,7 +105,7 @@ AI 自动判断当前形态，并给出可信度，例如：
 - 放量突破
 - 缩量回踩
 
-## Screenshots
+### Screenshots
 
 创建交易后预留接口自动保存：
 
@@ -111,7 +116,7 @@ AI 自动判断当前形态，并给出可信度，例如：
 
 如果当前版本无法自动截图，先预留接口。
 
-## Risk
+### Risk
 
 自动计算：
 
@@ -120,28 +125,28 @@ AI 自动判断当前形态，并给出可信度，例如：
 - 止损距离
 - RR
 
-如果风险超过用户设置，只提醒“风险超过你的规则”，不要禁止交易。最终决定权属于用户。
+如果风险超过用户设置，只提醒“风险超过你的规则”。不要禁止交易，最终决定权属于用户。
 
-## OKX Public Alerting
+### OKX public alerting
 
 继续使用 OKX 公共行情接口，只读，不下单，不连接交易权限。
 
-用户输入止损和止盈后，APP 自动监听：
+用户输入止损和止盈后，App 自动监听：
 
 - 距离止损 2%：提醒
 - 距离止盈 1%：提醒
 
-做多：
+做多规则：
 
 - 当前价 <= 止损价：止损提醒
 - 当前价 >= 止盈价：止盈提醒
 
-做空：
+做空规则：
 
 - 当前价 >= 止损价：止损提醒
 - 当前价 <= 止盈价：止盈提醒
 
-## AI Review
+### AI review
 
 交易结束后，不要求用户写长篇总结。
 
@@ -155,28 +160,57 @@ AI 自动生成复盘：
 - 是否移动止损
 - 如果按原计划执行，理论结果如何
 
-区分：
+复盘必须区分：
 
 - 策略亏损
 - 纪律亏损
 - 市场随机波动
 - 高质量亏损
 
-## Trading Memory
+### Trading Memory
 
 长期分析 100 / 200 / 500 笔交易，找出用户真正赚钱和亏钱的模式。
 
 示例：
 
-- 最赚钱：15 分钟、首次回踩、上市 6 小时内、成交量增加、OI 增加。
-- 最差：追高交易，胜率低。
+- 最赚钱：15 分钟、首次回踩、上市 6 小时内、成交量增加、OI 增加
+- 最差：追高交易，胜率低
 
-## Development Requirements
+### Development requirements
 
-- React Native + Expo + TypeScript。
-- SQLite 继续作为本地数据库。
-- 分析模块单独封装。
-- 行情接口独立封装。
-- AI 模块预留 Provider 接口。
-- 每完成一个模块运行 TypeScript 检查。
+- 使用 React Native + Expo + TypeScript
+- SQLite 继续作为本地数据库
+- 分析模块单独封装
+- 行情接口独立封装
+- AI 模块预留 Provider 接口
+- 每完成一个模块运行 TypeScript 检查
+
+## Safety Rules
+
+- 不自动交易
+- 不自动下单
+- 不预测未来价格
+- 不保证收益
+- 不生成“建议买”
+- 不生成“建议卖”
+- 不生成“一定会上涨”
+- 不生成“一定会下跌”
+- 不保存交易权限 API Key
+- 不保存提现权限 API Key
+- 只基于当前市场客观数据做分析
+
+## Acceptance Criteria
+
+- 用户可以用 5 个字段创建交易记录
+- 创建交易流程目标控制在 10 秒内
+- 保存交易后自动生成客观市场分析
+- 系统可以识别形态并显示可信度
+- 风险指标可以自动计算
+- OKX 公共行情提醒保持只读
+- 做多和做空提醒规则独立生效
+- AI 复盘不要求用户写长篇总结
+- SQLite 继续保存本地数据
+- AI Provider 接口已预留
+- TypeScript 检查通过
+- README 同步更新安全边界
 
