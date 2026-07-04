@@ -22,6 +22,8 @@ It does not place orders automatically.
 
 - `docs/00-roadmap.md`: Main AlphaPilot roadmap
 - `docs/AlphaPilot_软件设计文档_阶段提示词.md`: Original design document and phased prompts
+- `roadmap/AlphaPilot_Live_Quant_Roadmap_V2.md`: Live quant system roadmap recorded during V13.1.3
+- `architecture/AlphaPilot_Controlled_Execution_Design.md`: Future controlled execution boundary recorded during V13.1.3
 - `prompts/V1.1-fix-current-app.md`: Current app stabilization prompt
 - `prompts/V2-ai-trading-copilot.md`: AI Trading Copilot prompt
 - `prompts/V3-feature-database.md`: Feature Database prompt
