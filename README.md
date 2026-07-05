@@ -27,6 +27,7 @@ It does not place orders automatically.
 - `prompts/V1.1-fix-current-app.md`: Current app stabilization prompt
 - `prompts/V2-ai-trading-copilot.md`: AI Trading Copilot prompt
 - `prompts/V3-feature-database.md`: Feature Database prompt
+- `prompts/AlphaPilot_V13.4.32_Low_Frequency_Data_Baseline_Codex_Prompt.md`: Low-frequency data preparation and baseline builder prompt
 
 ## Safety boundary
 
