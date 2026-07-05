@@ -29,6 +29,7 @@ It does not place orders automatically.
 - `prompts/V3-feature-database.md`: Feature Database prompt
 - `prompts/AlphaPilot_V13.4.32_Low_Frequency_Data_Baseline_Codex_Prompt.md`: Low-frequency data preparation and baseline builder prompt
 - `prompts/AlphaPilot_V13.4.33_Low_Frequency_Candidate_Spec_Codex_Prompt.md`: Low-frequency candidate specifications and baseline hurdles prompt
+- `prompts/AlphaPilot_V13.4.34_Low_Frequency_Directional_Strategy_Codex_Prompt.md`: Low-frequency directional 4h research strategy prompt
 
 ## Safety boundary
 
