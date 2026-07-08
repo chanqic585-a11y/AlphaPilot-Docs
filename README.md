@@ -31,6 +31,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.4.33_Low_Frequency_Candidate_Spec_Codex_Prompt.md`: Low-frequency candidate specifications and baseline hurdles prompt
 - `prompts/AlphaPilot_V13.4.34_Low_Frequency_Directional_Strategy_Codex_Prompt.md`: Low-frequency directional 4h research strategy prompt
 - `prompts/AlphaPilot_V13.4.35_Multi_Strategy_Batch_Backtest_Codex_Prompt.md`: Multi-strategy batch research backtest prompt
+- `prompts/AlphaPilot_V13.7.44_Simulation_Review_Queue_Codex_Prompt.md`: Local sandbox simulation review queue and strategy promotion suggestion prompt
 
 ## Safety boundary
 
