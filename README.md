@@ -35,6 +35,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.7.45_Closed_Sample_Replay_Codex_Prompt.md`: Closed sample detail and local replay view prompt
 - `prompts/AlphaPilot_V13.7.46_Sandbox_Sample_Path_Instrumentation_Codex_Prompt.md`: Local sandbox estimated path instrumentation prompt
 - `prompts/AlphaPilot_V13.7.47_Replay_Scoring_Weakness_Labels_Codex_Prompt.md`: Replay scoring and weakness labels prompt
+- `prompts/AlphaPilot_V13.7.48_Strategy_Weakness_Action_Board_Codex_Prompt.md`: Strategy weakness action board prompt
 
 ## Safety boundary
 
