@@ -38,6 +38,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.7.48_Strategy_Weakness_Action_Board_Codex_Prompt.md`: Strategy weakness action board prompt
 - `prompts/AlphaPilot_V13.7.49_Research_Action_Tracker_Codex_Prompt.md`: Research action tracker prompt
 - `prompts/AlphaPilot_V13.8_Research_Execution_Pipeline_Codex_Prompt.md`: Research execution pipeline, candidate promotion gate, simulation command center, and testnet readiness checklist prompt
+- `prompts/AlphaPilot_V13.8.1_Testnet_Readiness_UI_Boundary_Codex_Prompt.md`: Disabled Testnet readiness UI boundary prompt
 
 ## Safety boundary
 
