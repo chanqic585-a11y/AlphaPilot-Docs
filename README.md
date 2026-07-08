@@ -37,6 +37,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.7.47_Replay_Scoring_Weakness_Labels_Codex_Prompt.md`: Replay scoring and weakness labels prompt
 - `prompts/AlphaPilot_V13.7.48_Strategy_Weakness_Action_Board_Codex_Prompt.md`: Strategy weakness action board prompt
 - `prompts/AlphaPilot_V13.7.49_Research_Action_Tracker_Codex_Prompt.md`: Research action tracker prompt
+- `prompts/AlphaPilot_V13.8_Research_Execution_Pipeline_Codex_Prompt.md`: Research execution pipeline, candidate promotion gate, simulation command center, and testnet readiness checklist prompt
 
 ## Safety boundary
 
