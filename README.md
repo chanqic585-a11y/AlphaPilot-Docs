@@ -47,6 +47,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.19_Real_Time_Local_Forward_Observation_Codex_Prompt.md`: Public-market real-time forward observation, 1000 USDT virtual accounts, restart checkpoints, and collection-gap integrity prompt
 - `prompts/AlphaPilot_V13.20_Immutable_Release_Gated_OKX_Demo_Codex_Prompt.md`: Formal promotion gates, immutable OKX Demo releases, internal release-bound scanning, reconciliation, and drift pause prompt
 - `prompts/AlphaPilot_V13.21_Live_Safety_Candidate_Boundary_Codex_Prompt.md`: Checksum-bound Live review candidates and a fail-closed, non-executing safety plane prompt
+- `prompts/AlphaPilot_V13.22_Offline_Evolution_Feedback_Loop_Codex_Prompt.md`: Evidence-classed offline feedback, failure attribution, bounded shadow factor evolution, and immutable release lineage prompt
 
 ## Safety boundary
 
