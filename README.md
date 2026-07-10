@@ -50,6 +50,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.22_Offline_Evolution_Feedback_Loop_Codex_Prompt.md`: Evidence-classed offline feedback, failure attribution, bounded shadow factor evolution, and immutable release lineage prompt
 - `prompts/AlphaPilot_V13.24_Versioned_Risk_Profile_Codex_Prompt.md`: Immutable configurable risk profiles, portfolio concentration limits, activation audit, and rollback prompt
 - `prompts/AlphaPilot_V13.25_Fail_Closed_OKX_Live_Canary_Codex_Prompt.md`: Default-off OKX Live Canary adapter, immutable release, reconciliation, protection, and kill-switch prompt
+- `prompts/AlphaPilot_V13.26_Formal_Execution_Outcome_Feedback_Codex_Prompt.md`: Closed Demo/Live outcome reconciliation, checksum export, lineage validation, quarantine, and offline-only feedback prompt
 
 ## Safety boundary
 
