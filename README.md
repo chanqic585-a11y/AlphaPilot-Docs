@@ -49,6 +49,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.21_Live_Safety_Candidate_Boundary_Codex_Prompt.md`: Checksum-bound Live review candidates and a fail-closed, non-executing safety plane prompt
 - `prompts/AlphaPilot_V13.22_Offline_Evolution_Feedback_Loop_Codex_Prompt.md`: Evidence-classed offline feedback, failure attribution, bounded shadow factor evolution, and immutable release lineage prompt
 - `prompts/AlphaPilot_V13.24_Versioned_Risk_Profile_Codex_Prompt.md`: Immutable configurable risk profiles, portfolio concentration limits, activation audit, and rollback prompt
+- `prompts/AlphaPilot_V13.25_Fail_Closed_OKX_Live_Canary_Codex_Prompt.md`: Default-off OKX Live Canary adapter, immutable release, reconciliation, protection, and kill-switch prompt
 
 ## Safety boundary
 
