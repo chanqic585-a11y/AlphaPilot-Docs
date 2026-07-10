@@ -41,6 +41,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.8.1_Testnet_Readiness_UI_Boundary_Codex_Prompt.md`: Disabled Testnet readiness UI boundary prompt
 - `prompts/AlphaPilot_V13.8.2_Pre_Live_Preparation_Pack_Codex_Prompt.md`: Local pre-live lifecycle rehearsal, risk limits, kill-switch design, and credential-boundary prompt
 - `prompts/AlphaPilot_V13.8.3_Pre_Live_Operational_Closure_Codex_Prompt.md`: Local pre-live rehearsal persistence, closure checks, and operational runbook prompt
+- `prompts/AlphaPilot_V13.16_Auditable_Market_Data_Foundation_Codex_Prompt.md`: Read-only raw catalog, canonical public-market data, resumable checksums, point-in-time snapshots, and provenance gate prompt
 
 ## Safety boundary
 
