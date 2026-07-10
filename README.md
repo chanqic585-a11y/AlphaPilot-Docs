@@ -44,6 +44,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.16_Auditable_Market_Data_Foundation_Codex_Prompt.md`: Read-only raw catalog, canonical public-market data, resumable checksums, point-in-time snapshots, and provenance gate prompt
 - `prompts/AlphaPilot_V13.17_Point_in_Time_FactorRun_Backtest_Codex_Prompt.md`: Point-in-time FactorRuns, fixed 2R labels, purged walk-forward, locked test, and formal promotion gate prompt
 - `prompts/AlphaPilot_V13.18_Actual_Candle_Historical_Path_Replay_Codex_Prompt.md`: Next-bar actual-candle replay, 2R exits, immutable Outcome Ledger, and legacy synthetic evidence boundary prompt
+- `prompts/AlphaPilot_V13.19_Real_Time_Local_Forward_Observation_Codex_Prompt.md`: Public-market real-time forward observation, 1000 USDT virtual accounts, restart checkpoints, and collection-gap integrity prompt
 
 ## Safety boundary
 
