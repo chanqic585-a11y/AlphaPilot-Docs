@@ -42,6 +42,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.8.2_Pre_Live_Preparation_Pack_Codex_Prompt.md`: Local pre-live lifecycle rehearsal, risk limits, kill-switch design, and credential-boundary prompt
 - `prompts/AlphaPilot_V13.8.3_Pre_Live_Operational_Closure_Codex_Prompt.md`: Local pre-live rehearsal persistence, closure checks, and operational runbook prompt
 - `prompts/AlphaPilot_V13.16_Auditable_Market_Data_Foundation_Codex_Prompt.md`: Read-only raw catalog, canonical public-market data, resumable checksums, point-in-time snapshots, and provenance gate prompt
+- `prompts/AlphaPilot_V13.17_Point_in_Time_FactorRun_Backtest_Codex_Prompt.md`: Point-in-time FactorRuns, fixed 2R labels, purged walk-forward, locked test, and formal promotion gate prompt
 
 ## Safety boundary
 
