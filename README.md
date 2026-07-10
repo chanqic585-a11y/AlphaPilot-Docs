@@ -24,6 +24,7 @@ It does not place orders automatically.
 - `docs/AlphaPilot_软件设计文档_阶段提示词.md`: Original design document and phased prompts
 - `roadmap/AlphaPilot_Live_Quant_Roadmap_V2.md`: Live quant system roadmap recorded during V13.1.3
 - `roadmap/AlphaPilot_V13.27_Unified_Workflow_Orchestrator_Implementation_Plan.md`: Phased implementation plan for workflow foundation, backtest, local forward, Demo, and Live
+- `roadmap/AlphaPilot_V13.27.1_Strategy_Backtest_Workflow_Result.md`: Completed V13.27.1 backtest worker, Strategy-page workflow, verification, commits, and safety boundary
 - `architecture/AlphaPilot_Controlled_Execution_Design.md`: Future controlled execution boundary recorded during V13.1.3
 - `architecture/AlphaPilot_V13.27_Unified_Workflow_Orchestrator_Design.md`: Unified strategy backtest, local forward, OKX Demo, Live, retry, and concise-console workflow design
 - `prompts/V1.1-fix-current-app.md`: Current app stabilization prompt

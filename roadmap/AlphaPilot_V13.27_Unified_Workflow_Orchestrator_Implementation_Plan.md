@@ -10,6 +10,16 @@ Strategy backtest -> Local real-time forward -> OKX Demo -> Live
 
 The implementation is split into independently testable releases. A later release may not begin until the previous release is committed, tagged, pushed, and clean.
 
+## Implementation Status - 2026-07-11
+
+- `V13.27.0`: completed, tested, tagged, and pushed.
+- `V13.27.1`: completed, tested, tagged, and pushed.
+- `V13.27.2`: not started. It may begin only after the V13.27.1 closeout is clean.
+
+The current imported Alpha191 observer remains `backtest / awaiting` because a
+formal point-in-time DataSnapshot and evaluation manifests have not been bound.
+This is an explicit evidence gate, not an unfinished display migration.
+
 ## Shared Rules
 
 1. A strategy definition is immutable after registration.
