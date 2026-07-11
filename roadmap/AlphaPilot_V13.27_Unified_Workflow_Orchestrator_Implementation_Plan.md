@@ -106,6 +106,36 @@ Extend registry types and repository methods. Keep existing FactorRun, StrategyC
 - No backtest action can create an exchange order.
 - Quant, Console, and Docs commits are tagged and pushed.
 
+### V13.27.1.1 Completion Note
+
+V13.27.1.1 adds the approved dual-data warehouse and one-click backtest bridge
+without changing the four-stage lifecycle.
+
+- Existing files under `D:\Codex-Workspace\回测数据\5m`, `合约数据`, and
+  `现货数据` remain read-only, third-party-unverified research inputs.
+- Official OKX public OHLCV and funding data are stored separately under
+  `回测数据\_alphapilot`, checksum-bound, and frozen before formal evaluation.
+- The one-click action derives a timeframe-aware contract, runs research smoke,
+  resumes official collection, builds purged walk-forward, unseen-symbol,
+  locked-OOS, regime, and cost manifests, and then runs a fixed
+  `targetR >= 2` formal backtest.
+- Only a formal pass may automatically create an awaiting Local Forward run.
+  Demo and Live remain manual, gated later stages.
+
+Observed verification on 2026-07-11:
+
+- Local smoke: 14 assets, implementation valid, research-only, no source-file
+  metadata changes, and no promotion eligibility.
+- Bounded OKX public pack: BTC/ETH/SOL, 5m/15m/4h, 9/9 OHLCV partitions,
+  3 funding files, 12-file immutable snapshot, 4 walk-forward folds, and SOL
+  unseen-symbol holdout.
+- Quant: 207 tests passed. Console: 76 tests passed.
+- The bounded pack validates the data pipeline only. Alpha191 did not pass the
+  full 2020-2026 dynamic-universe formal backtest and did not enter Local
+  Forward.
+- No private endpoint, credential persistence, account read, position read,
+  order creation, Demo transition, or Live activation was added.
+
 ## V13.27.2 - Local Real-Time Forward Workflow
 
 ### Quant Engine

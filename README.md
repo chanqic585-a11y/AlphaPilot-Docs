@@ -26,6 +26,7 @@ It does not place orders automatically.
 - `roadmap/AlphaPilot_V13.27_Unified_Workflow_Orchestrator_Implementation_Plan.md`: Phased implementation plan for workflow foundation, backtest, local forward, Demo, and Live
 - `roadmap/AlphaPilot_V13.27.1_Strategy_Backtest_Workflow_Result.md`: Completed V13.27.1 backtest worker, Strategy-page workflow, verification, commits, and safety boundary
 - `roadmap/AlphaPilot_V13.27.1.1_Dual_Data_Warehouse_One_Click_Backtest_Implementation_Plan.md`: Task-by-task TDD plan for dual data storage, official OKX preparation, formal fixed-2R backtesting, and automatic Local Forward entry
+- `roadmap/AlphaPilot_V13.27_Unified_Workflow_Orchestrator_Implementation_Plan.md`: Includes the verified V13.27.1.1 completion note: 14-asset research smoke, bounded BTC/ETH/SOL official-data snapshot, 207 Quant tests, 76 Console tests, and no automatic Demo or Live transition
 - `architecture/AlphaPilot_Controlled_Execution_Design.md`: Future controlled execution boundary recorded during V13.1.3
 - `architecture/AlphaPilot_V13.27_Unified_Workflow_Orchestrator_Design.md`: Unified strategy backtest, local forward, OKX Demo, Live, retry, and concise-console workflow design
 - `architecture/AlphaPilot_V13.27.1.1_Dual_Data_Warehouse_One_Click_Backtest_Design.md`: Approved dual data warehouse, timeframe-aware one-click backtest, official validation pack, and automatic Local Forward entry design
