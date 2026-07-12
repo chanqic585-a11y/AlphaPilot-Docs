@@ -57,6 +57,8 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.24_Versioned_Risk_Profile_Codex_Prompt.md`: Immutable configurable risk profiles, portfolio concentration limits, activation audit, and rollback prompt
 - `prompts/AlphaPilot_V13.25_Fail_Closed_OKX_Live_Canary_Codex_Prompt.md`: Default-off OKX Live Canary adapter, immutable release, reconciliation, protection, and kill-switch prompt
 - `prompts/AlphaPilot_V13.26_Formal_Execution_Outcome_Feedback_Codex_Prompt.md`: Closed Demo/Live outcome reconciliation, checksum export, lineage validation, quarantine, and offline-only feedback prompt
+- `prompts/AlphaPilot_V13.27.7_Demo_Canonical_Instrument_Fix_Codex_Prompt.md`: Canonical OKX swap-ID fix and invalid zero-match rescan boundary
+- `prompts/AlphaPilot_V13.27.8_Shared_Official_Market_Data_Codex_Prompt.md`: Cross-strategy verified official OHLCV reuse and missing-tail collection boundary
 
 ## Safety boundary
 
