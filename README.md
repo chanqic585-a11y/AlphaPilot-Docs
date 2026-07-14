@@ -59,6 +59,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.26_Formal_Execution_Outcome_Feedback_Codex_Prompt.md`: Closed Demo/Live outcome reconciliation, checksum export, lineage validation, quarantine, and offline-only feedback prompt
 - `prompts/AlphaPilot_V13.27.7_Demo_Canonical_Instrument_Fix_Codex_Prompt.md`: Canonical OKX swap-ID fix and invalid zero-match rescan boundary
 - `prompts/AlphaPilot_V13.27.8_Shared_Official_Market_Data_Codex_Prompt.md`: Cross-strategy verified official OHLCV reuse and missing-tail collection boundary
+- `research/archived-failed-strategy-analysis.md`: Archived failed-strategy inventory, null-preserving metrics, failure attribution, negative rules, and revival policy
 
 ## Safety boundary
 
