@@ -30,6 +30,7 @@ It does not place orders automatically.
 - `architecture/AlphaPilot_Controlled_Execution_Design.md`: Future controlled execution boundary recorded during V13.1.3
 - `architecture/AlphaPilot_V13.27_Unified_Workflow_Orchestrator_Design.md`: Unified strategy backtest, local forward, OKX Demo, Live, retry, and concise-console workflow design
 - `architecture/AlphaPilot_V13.27.1.1_Dual_Data_Warehouse_One_Click_Backtest_Design.md`: Approved dual data warehouse, timeframe-aware one-click backtest, official validation pack, and automatic Local Forward entry design
+- `architecture/AlphaPilot_Strategy_Generation_Core_Principles.md`: Core hypothesis, evidence, risk, ML, overfitting, immutable-release, and failure-preservation rules for future strategy generation
 - `prompts/V1.1-fix-current-app.md`: Current app stabilization prompt
 - `prompts/V2-ai-trading-copilot.md`: AI Trading Copilot prompt
 - `prompts/V3-feature-database.md`: Feature Database prompt
@@ -59,6 +60,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.26_Formal_Execution_Outcome_Feedback_Codex_Prompt.md`: Closed Demo/Live outcome reconciliation, checksum export, lineage validation, quarantine, and offline-only feedback prompt
 - `prompts/AlphaPilot_V13.27.7_Demo_Canonical_Instrument_Fix_Codex_Prompt.md`: Canonical OKX swap-ID fix and invalid zero-match rescan boundary
 - `prompts/AlphaPilot_V13.27.8_Shared_Official_Market_Data_Codex_Prompt.md`: Cross-strategy verified official OHLCV reuse and missing-tail collection boundary
+- `prompts/AlphaPilot_Full_Archived_Strategy_Evidence_Analysis_Codex_Prompt_CN.md`: Full archived strategy identity, evidence, trade-level metric, and failure-attribution analysis prompt
 - `research/archived-failed-strategy-analysis.md`: Archived failed-strategy inventory, null-preserving metrics, failure attribution, negative rules, and revival policy
 
 ## Safety boundary
