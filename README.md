@@ -62,7 +62,12 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.27.8_Shared_Official_Market_Data_Codex_Prompt.md`: Cross-strategy verified official OHLCV reuse and missing-tail collection boundary
 - `prompts/AlphaPilot_Full_Archived_Strategy_Evidence_Analysis_Codex_Prompt_CN.md`: Full archived strategy identity, evidence, trade-level metric, and failure-attribution analysis prompt
 - `prompts/AlphaPilot_Candidate_Evidence_Closure_Locked_Validation_Codex_Prompt_CN.md`: Pre-registered candidate deduplication, locked-sample validation, primary 0.25% risk model, cost stress, Monte Carlo, and continue-archive decision prompt
+- `prompts/AlphaPilot_V13.27.1.11_Revised_V2_Hierarchical_Gates_Causal_Data_Clean_Holdout_Codex_Prompt_CN.md`: Canonical V13.27.1.11 V2 prompt for hierarchical event/portfolio gates, causal data clocks, same-exchange derivatives evidence, and a one-shot clean holdout.
 - `research/archived-failed-strategy-analysis.md`: Archived failed-strategy inventory, null-preserving metrics, failure attribution, negative rules, and revival policy
+
+## V13.27.1.11 closeout
+
+The V2 research-factory repair is implemented in the Quant repository and closed as `data_not_ready`, not as an engineering failure. Public-source capability checks and local artifact manifests passed, but zero of the two required top-level directions had complete same-exchange historical derivatives and point-in-time universe evidence. The formal campaign, preregistration, clean holdout, Console import, Demo ARM, and order paths therefore remained closed as designed.
 
 ## Safety boundary
 
