@@ -64,6 +64,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_Candidate_Evidence_Closure_Locked_Validation_Codex_Prompt_CN.md`: Pre-registered candidate deduplication, locked-sample validation, primary 0.25% risk model, cost stress, Monte Carlo, and continue-archive decision prompt
 - `prompts/AlphaPilot_V13.27.1.11_Revised_V2_Hierarchical_Gates_Causal_Data_Clean_Holdout_Codex_Prompt_CN.md`: Canonical V13.27.1.11 V2 prompt for hierarchical event/portfolio gates, causal data clocks, same-exchange derivatives evidence, and a one-shot clean holdout.
 - `prompts/AlphaPilot_V13.27.1.12_Revised_Formal_Data_Coverage_PIT_Qlib_Readiness_Codex_Prompt_CN.md`: Formal same-exchange derivatives coverage, historical PIT universe, immutable data snapshot, bounded public collection, and pinned Qlib-readiness prompt.
+- `prompts/AlphaPilot_V13.27.1.13_Minimal_Data_Layer_Storage_Governance_Bounded_Strategy_Funnel_Codex_Prompt_CN.md`: Exact-root storage governance, reusable minimal data manifests, bounded preregistered hypotheses, and fail-closed prefilter-to-formal routing prompt.
 - `research/archived-failed-strategy-analysis.md`: Archived failed-strategy inventory, null-preserving metrics, failure attribution, negative rules, and revival policy
 
 ## V13.27.1.11 closeout
@@ -80,6 +81,23 @@ and complete same-exchange data chains remain unavailable, so the strategy
 campaign, Qlib campaign, clean holdout, Release, Demo ARM, and order paths all
 remained closed. The result is an auditable `data_not_ready` decision with no
 threshold relaxation and no trading capability added.
+
+## V13.27.1.13 closeout
+
+V13.27.1.13 is implemented in the Quant repository. Storage governance was
+strictly bounded to `D:\Codex-Workspace\回测数据`; the final dry-run and explicit
+apply audit deleted zero files because no candidate satisfied every deletion
+rule. The minimal data layer reuses existing local evidence through a
+manifest-only snapshot for a fixed 20-instrument core universe, shared 1h/4h
+cutoffs, and an append-only forward collection plan.
+
+The bounded campaign preregistered three hypotheses and opened only the first
+55% development segment for prefiltering. One hypothesis was rejected as
+non-novel, one remained diagnostic-only because PIT/1d evidence was
+insufficient, and the event-driven hypothesis failed profitability,
+month-consistency, and drawdown gates after 644 events. No hypothesis survived
+to formal validation, so locked OOS was not opened and no Release, Demo ARM,
+order, private exchange API, Trade API, or Withdraw API was created or used.
 
 ## Safety boundary
 
