@@ -109,3 +109,12 @@ All AlphaPilot documentation must preserve these rules:
 - Do not save trade-permission API keys
 - Do not save withdraw-permission API keys
 - Do not place orders automatically
+
+## V13.27.1.14 Advisory-R Exit Policy
+
+The authoritative implementation prompt is
+`prompts/AlphaPilot_V13.27.1.14_Advisory_R_Exit_Policy_Implementation.md`.
+V13.27.1.14 adds a versioned Advisory-R exit-policy contract, four bounded exit
+modes, causal simulator/report integration, and Console v1/v2 Demo import
+compatibility. It does not run a strategy campaign, open holdout evidence,
+create or approve a release, ARM Demo, place an order, or change Live gates.
