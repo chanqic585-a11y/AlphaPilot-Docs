@@ -151,6 +151,23 @@ created. See
 `docs/AlphaPilot_V13.27.1.27_Zero_Survivor_Closeout_CN.md` for the complete
 counts, evidence identities, package hashes, verification, and stage ruling.
 
+## V13.27.1.28-32 Research Renewal closeout
+
+The authoritative prompt is
+`prompts/AlphaPilot_V13.27.1.28-32_Research_Renewal_to_OKX_Demo_Codex_Prompt_CN.md`.
+The candidate-neutral V28-V32 contracts and bounded orchestration are
+implemented in the Quant repository. The frozen Program
+`automatic_strategy_renewal_v28_4e6ab55a5e949716` closed as
+`blocked_formal_data`: 24 OHLCV datasets exist, but none has both verified
+exchange provenance and point-in-time semantics. No candidate identity or
+formal result was created, all 96 backtests remain available, and Release,
+approval, Demo ARM, and order counts remain zero.
+
+The workflow now supports OKX same-exchange evidence or frozen portability
+audits and immutable exact-hash Release requests, but these paths were not
+entered. Resume only with a new immutable verified-PIT OHLCV catalog; never
+rewrite this result or revive V27 candidates.
+
 ## V13.27.1.14 Advisory-R Exit Policy
 
 The authoritative implementation prompt is
