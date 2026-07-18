@@ -109,3 +109,33 @@ All AlphaPilot documentation must preserve these rules:
 - Do not save trade-permission API keys
 - Do not save withdraw-permission API keys
 - Do not place orders automatically
+
+## V13.27.1.19-24 Automatic Strategy-to-Demo closeout
+
+The bounded V19-V24 workflow is complete. It produced one formal candidate,
+which was classified as `capital_infeasible` under the frozen capacity policy,
+so the correct terminal route is `completed_zero_qualified_candidates` with
+zero Release, zero approval, Demo not armed, and zero orders. See
+`docs/AlphaPilot_V13.27.1.19-24_Automatic_Strategy_to_Demo_Execution_Summary_CN.md`
+for the stage results, evidence identities, test results, and evidence-package
+locations.
+
+## V13.27.1.14 Advisory-R Exit Policy
+
+The authoritative implementation prompt is
+`prompts/AlphaPilot_V13.27.1.14_Advisory_R_Exit_Policy_Implementation.md`.
+V13.27.1.14 adds a versioned Advisory-R exit-policy contract, four bounded exit
+modes, causal simulator/report integration, and Console v1/v2 Demo import
+compatibility. It does not run a strategy campaign, open holdout evidence,
+create or approve a release, ARM Demo, place an order, or change Live gates.
+
+## V13.27.1.15 Advisory-R Strategy Prefilter
+
+The authoritative prompt is
+`prompts/AlphaPilot_V13.27.1.15_Strategy_Generation_and_Prefilter.md`.
+V13.27.1.15 froze ten candidates across eight mechanism families, assigned one
+primary exit policy to each candidate, and ran a causal representative-universe
+prefilter with target R recorded as advisory rather than used as an admission
+gate. The result contained zero formal survivors, which is a valid hard stop.
+No holdout was opened, no release was generated, Demo remained unarmed, no
+order was created, and V13.27.1.16 through V13.27.1.18 were not executed.
