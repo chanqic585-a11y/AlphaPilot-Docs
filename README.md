@@ -134,6 +134,23 @@ definitions are unresolved. No Formal claim or budget was consumed, and no
 Release, approval, Demo ARM, Live path, or order was created. A V26 tag must not
 be created for this blocked route.
 
+The paragraph above records the historical V25 checkpoint. It is superseded by
+the completed V26 and V27 work below.
+
+## V13.27.1.26-27 Automatic Strategy-to-Demo closeout
+
+V26 resolved the two frozen ranking-feature definitions without mutating the
+V25 candidate evidence. V27 then evaluated four hypothesis families and eight
+bounded candidates. Eight passed structural and ranking checks, three passed
+strict capacity certification, and zero passed the economic prefilter.
+
+The legal terminal route is `completed_zero_qualified_candidates`. V28-V31
+were not reached: no Formal result was read, no Locked OOS evidence was opened,
+no immutable Release was generated, and no Demo approval, ARM, or order was
+created. See
+`docs/AlphaPilot_V13.27.1.27_Zero_Survivor_Closeout_CN.md` for the complete
+counts, evidence identities, package hashes, verification, and stage ruling.
+
 ## V13.27.1.14 Advisory-R Exit Policy
 
 The authoritative implementation prompt is
