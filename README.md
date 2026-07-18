@@ -187,3 +187,13 @@ prefilter with target R recorded as advisory rather than used as an admission
 gate. The result contained zero formal survivors, which is a valid hard stop.
 No holdout was opened, no release was generated, Demo remained unarmed, no
 order was created, and V13.27.1.16 through V13.27.1.18 were not executed.
+
+## V13.27.1.34C Public Data Scheduler
+
+The authoritative prompt is
+`prompts/AlphaPilot_V13.27.1.34C_Public_Data_Scheduler.md`.
+V34C adds a durable, hash-audited foreground scheduler around the V34B public
+OKX collectors. Its two-cycle pilot proved due-task selection, incremental
+funding resume behavior, quality reporting, cycle chaining, and preservation of
+all V34A/V34B artifacts. It remained data-only: candidate, Formal, result-read,
+Locked-OOS, Release, approval, Demo ARM, and order counts all stayed zero.
