@@ -110,6 +110,16 @@ All AlphaPilot documentation must preserve these rules:
 - Do not save withdraw-permission API keys
 - Do not place orders automatically
 
+## V13.27.1.19-24 Automatic Strategy-to-Demo closeout
+
+The bounded V19-V24 workflow is complete. It produced one formal candidate,
+which was classified as `capital_infeasible` under the frozen capacity policy,
+so the correct terminal route is `completed_zero_qualified_candidates` with
+zero Release, zero approval, Demo not armed, and zero orders. See
+`docs/AlphaPilot_V13.27.1.19-24_Automatic_Strategy_to_Demo_Execution_Summary_CN.md`
+for the stage results, evidence identities, test results, and evidence-package
+locations.
+
 ## V13.27.1.14 Advisory-R Exit Policy
 
 The authoritative implementation prompt is
