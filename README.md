@@ -65,6 +65,7 @@ It does not place orders automatically.
 - `prompts/AlphaPilot_V13.27.1.11_Revised_V2_Hierarchical_Gates_Causal_Data_Clean_Holdout_Codex_Prompt_CN.md`: Canonical V13.27.1.11 V2 prompt for hierarchical event/portfolio gates, causal data clocks, same-exchange derivatives evidence, and a one-shot clean holdout.
 - `prompts/AlphaPilot_V13.27.1.12_Revised_Formal_Data_Coverage_PIT_Qlib_Readiness_Codex_Prompt_CN.md`: Formal same-exchange derivatives coverage, historical PIT universe, immutable data snapshot, bounded public collection, and pinned Qlib-readiness prompt.
 - `prompts/AlphaPilot_V13.27.1.13_Minimal_Data_Layer_Storage_Governance_Bounded_Strategy_Funnel_Codex_Prompt_CN.md`: Exact-root storage governance, reusable minimal data manifests, bounded preregistered hypotheses, and fail-closed prefilter-to-formal routing prompt.
+- `prompts/AlphaPilot_V13.27.1.25-26_Capacity_Data_Semantics_and_Frozen_Candidate_Replay_Codex_Prompt_CN.md`: Capacity-data semantics, verified turnover provenance, frozen-candidate capacity certification, and fail-closed V26 replay admission.
 - `research/archived-failed-strategy-analysis.md`: Archived failed-strategy inventory, null-preserving metrics, failure attribution, negative rules, and revival policy
 
 ## V13.27.1.11 closeout
@@ -119,6 +120,19 @@ zero Release, zero approval, Demo not armed, and zero orders. See
 `docs/AlphaPilot_V13.27.1.19-24_Automatic_Strategy_to_Demo_Execution_Summary_CN.md`
 for the stage results, evidence identities, test results, and evidence-package
 locations.
+
+## V13.27.1.25 Capacity semantics closeout
+
+V25 preserves the completed V19-V24 result and adds a clarification sidecar:
+the previous zero-trade route was a capacity-data contract failure, not valid
+strategy-performance evidence. All 24 required local datasets have verified
+direct quote-turnover semantics, and real-signal capacity certification passes
+for the frozen candidate without reading economic results.
+
+V26 correctly remains unstarted because two mandatory frozen ranking-feature
+definitions are unresolved. No Formal claim or budget was consumed, and no
+Release, approval, Demo ARM, Live path, or order was created. A V26 tag must not
+be created for this blocked route.
 
 ## V13.27.1.14 Advisory-R Exit Policy
 
