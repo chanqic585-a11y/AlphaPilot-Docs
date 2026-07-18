@@ -197,3 +197,13 @@ OKX collectors. Its two-cycle pilot proved due-task selection, incremental
 funding resume behavior, quality reporting, cycle chaining, and preservation of
 all V34A/V34B artifacts. It remained data-only: candidate, Formal, result-read,
 Locked-OOS, Release, approval, Demo ARM, and order counts all stayed zero.
+
+## V13.27.1.35 Standard Replication Background Research
+
+The authoritative implementation record is
+`prompts/AlphaPilot_V13.27.1.35_Standard_Replication_Background_Research.md`.
+V35 adds a bounded, restartable background research service for six registered
+strategy families. It freezes nine candidates, marks two families as data
+blocked, and stops at `ready_for_prefilter`. The execution track remains
+isolated: no private account read, credential storage, Trade API, Withdraw API,
+Release approval, Demo ARM or order side effect is introduced.
