@@ -207,3 +207,17 @@ strategy families. It freezes nine candidates, marks two families as data
 blocked, and stops at `ready_for_prefilter`. The execution track remains
 isolated: no private account read, credential storage, Trade API, Withdraw API,
 Release approval, Demo ARM or order side effect is introduced.
+
+## V37F-V40 Vibe Selective Integration
+
+The authoritative workflow is
+`prompts/AlphaPilot_V37F-V40_Vibe_Selective_Integration_Master_Workflow_Codex_Prompt_CN.md`.
+The source analysis, adoption map, package manifest and executed closeout are in
+`docs/v37f-v40-vibe-selective-integration/`.
+
+The workflow selectively adapts research-only ideas from the pinned MIT-licensed
+`HKUDS/Vibe-Trading` source. It does not merge that repository, replace
+AlphaPilot gates, or import its broker/live connectors. V37F-V37J completed with
+zero Formal candidates and zero releases. V38 completed the read-only Strategy
+Lab and Demo engineering core; V39 was not run because no immutable release was
+eligible, and V40 remains disabled.
