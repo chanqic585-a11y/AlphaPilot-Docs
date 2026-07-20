@@ -221,3 +221,15 @@ AlphaPilot gates, or import its broker/live connectors. V37F-V37J completed with
 zero Formal candidates and zero releases. V38 completed the read-only Strategy
 Lab and Demo engineering core; V39 was not run because no immutable release was
 eligible, and V40 remains disabled.
+
+## V13.27.1.41-V13.27.1.45 Mechanism Breakthrough and Demo Smoke
+
+The authoritative workflow is
+`prompts/AlphaPilot_V13.27.1.41-45_Mechanism_Breakthrough_and_Real_OKX_Demo_Smoke_Codex_Prompt_CN.md`.
+Track R completed two bounded campaigns with four immutable candidates and no
+prefilter survivor. Formal, Locked OOS, Release, Demo strategy execution, Live,
+and Withdraw all remained unused. Track P implemented the exact-hash engineering
+smoke contract boundary, but the real private Demo smoke was not run because
+process-only credentials were not injected into the execution process. The
+delivery therefore reports a blocked product track instead of invented network,
+order, fill, position, or reconciliation evidence.
