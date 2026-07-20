@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "alphapilot_vibe_selective_integration_map_v1",
+  "vibeTrading": {
+    "repository": "HKUDS/Vibe-Trading",
+    "commit": "7d42de944466e1a1f12f0df3933624fe665dee3c",
+    "license": "MIT"
+  },
+  "adoptNow": [
+    {
+      "component": "strategy-development-manager",
+      "alphaPilotTarget": "strategy_acquisition",
+      "mode": "clean_room_rewrite",
+      "authority": "AlphaPilot Program/Campaign Ledger"
+    },
+    {
+      "component": "strategy-store-lifecycle",
+      "alphaPilotTarget": "artifact_index_and_bench_history",
+      "mode": "schema_adaptation",
+      "authority": "projection_only"
+    },
+    {
+      "component": "alpha-zoo-operators-and-bench",
+      "alphaPilotTarget": "factor_lab",
+      "mode": "selected_subset",
+      "constraint": "crypto data semantics and PIT readiness required"
+    },
+    {
+      "component": "generated-strategy-ast-sandbox",
+      "alphaPilotTarget": "generated_candidate_sandbox",
+      "mode": "hardened_adaptation",
+      "constraint": "network imports forbidden even when unreachable"
+    },
+    {
+      "component": "alpha-compare",
+      "alphaPilotTarget": "artifact_similarity",
+      "mode": "extended",
+      "constraint": "use source, signal, event, return and holding overlap"
+    }
+  ],
+  "defer": [
+    {
+      "component": "decay-monitoring",
+      "activateAfter": "at least three independent periodic benches or sufficient closed Demo trades",
+      "restriction": "never mutate an active Release in place"
+    },
+    {
+      "component": "shadow-account-attribution",
+      "activateAfter": "real closed Demo/Live trades",
+      "restriction": "no local virtual PnL simulation"
+    },
+    {
+      "component": "research-ui",
+      "activateIn": "V38",
+      "restriction": "reuse current Console stack; no React migration"
+    }
+  ],
+  "reject": [
+    "whole-repository-merge",
+    "cross-exchange-data-fallback-for-formal",
+    "generic-vibe-strategy-gates",
+    "automatic-in-place-parameter-updates",
+    "vibe-live-broker-connectors",
+    "unbounded-llm-strategy-daemon"
+  ],
+  "firstCampaignPriorities": [
+    "okx_positive_funding_carry",
+    "source_faithful_turtle_donchian_subject_to_dedup",
+    "source_faithful_pair_relative_value_materially_different_from_v35",
+    "funding_event_study"
+  ]
+}

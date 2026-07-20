@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "alphapilot_v37f_v40_vibe_integration_package_manifest_v1",
+  "sourceEvidence": {
+    "filename": "AlphaPilot_V33-V40_Long_Workflow_Evidence_20260720.zip",
+    "sha256": "b45ab5671f7cf6b3cca6e5d4aecce838cf30277a14923c22483bbabe7076db60"
+  },
+  "vibeTrading": {
+    "repository": "HKUDS/Vibe-Trading",
+    "commit": "7d42de944466e1a1f12f0df3933624fe665dee3c",
+    "license": "MIT"
+  },
+  "files": [
+    {
+      "path": "AlphaPilot_V37F-V40_Vibe_Selective_Integration_Analysis_and_Decision_CN.md",
+      "sizeBytes": 13976,
+      "sha256": "eb24f949d9ac70929478c0d2dd5de65e9ef2855bef51a9590778856d68cf9791"
+    },
+    {
+      "path": "AlphaPilot_V37F-V40_Vibe_Selective_Integration_Master_Workflow_Codex_Prompt_CN.md",
+      "sizeBytes": 22653,
+      "sha256": "a2d410f2e95af53a9f8a7bf2781363e927a3a0cfd8d95cd6e6e349621f2e6d44"
+    },
+    {
+      "path": "vibe_component_adoption_map.json",
+      "sizeBytes": 2294,
+      "sha256": "91fabb3b281e8cf16be7f32b21ad294201b28dfb44d14b801328d6caee9dd17e"
+    }
+  ]
+}

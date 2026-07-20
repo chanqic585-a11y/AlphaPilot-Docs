@@ -187,3 +187,37 @@ prefilter with target R recorded as advisory rather than used as an admission
 gate. The result contained zero formal survivors, which is a valid hard stop.
 No holdout was opened, no release was generated, Demo remained unarmed, no
 order was created, and V13.27.1.16 through V13.27.1.18 were not executed.
+
+## V13.27.1.34C Public Data Scheduler
+
+The authoritative prompt is
+`prompts/AlphaPilot_V13.27.1.34C_Public_Data_Scheduler.md`.
+V34C adds a durable, hash-audited foreground scheduler around the V34B public
+OKX collectors. Its two-cycle pilot proved due-task selection, incremental
+funding resume behavior, quality reporting, cycle chaining, and preservation of
+all V34A/V34B artifacts. It remained data-only: candidate, Formal, result-read,
+Locked-OOS, Release, approval, Demo ARM, and order counts all stayed zero.
+
+## V13.27.1.35 Standard Replication Background Research
+
+The authoritative implementation record is
+`prompts/AlphaPilot_V13.27.1.35_Standard_Replication_Background_Research.md`.
+V35 adds a bounded, restartable background research service for six registered
+strategy families. It freezes nine candidates, marks two families as data
+blocked, and stops at `ready_for_prefilter`. The execution track remains
+isolated: no private account read, credential storage, Trade API, Withdraw API,
+Release approval, Demo ARM or order side effect is introduced.
+
+## V37F-V40 Vibe Selective Integration
+
+The authoritative workflow is
+`prompts/AlphaPilot_V37F-V40_Vibe_Selective_Integration_Master_Workflow_Codex_Prompt_CN.md`.
+The source analysis, adoption map, package manifest and executed closeout are in
+`docs/v37f-v40-vibe-selective-integration/`.
+
+The workflow selectively adapts research-only ideas from the pinned MIT-licensed
+`HKUDS/Vibe-Trading` source. It does not merge that repository, replace
+AlphaPilot gates, or import its broker/live connectors. V37F-V37J completed with
+zero Formal candidates and zero releases. V38 completed the read-only Strategy
+Lab and Demo engineering core; V39 was not run because no immutable release was
+eligible, and V40 remains disabled.
