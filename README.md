@@ -233,3 +233,14 @@ smoke contract boundary, but the real private Demo smoke was not run because
 process-only credentials were not injected into the execution process. The
 delivery therefore reports a blocked product track instead of invented network,
 order, fill, position, or reconciliation evidence.
+
+## V13.27.1.61 Global Remediation
+
+The implementation plan is
+`docs/superpowers/plans/2026-07-22-global-remediation-continuous-demo-autonomous-research-ui-v2.md`.
+The program re-audits the latest frozen Quant, Console, and Docs heads before
+changing code, protects the existing Demo runtime from hot edits, and adds
+single-runtime authority, PIT, risk-unit, HTTP-write, SQLite, autonomous
+research, Shadow Parity, and minimal Demo/Live preview controls. Adaptive
+Learning remains truthfully blocked until its real model evidence closes; Live
+and Withdraw remain disabled.
