@@ -244,3 +244,13 @@ single-runtime authority, PIT, risk-unit, HTTP-write, SQLite, autonomous
 research, Shadow Parity, and minimal Demo/Live preview controls. Adaptive
 Learning remains truthfully blocked until its real model evidence closes; Live
 and Withdraw remain disabled.
+
+## V13.27.1.62 Control Plane and Strategy Factory
+
+The authoritative implementation record is
+`prompts/AlphaPilot_V13.27.1.62_Control_Plane_Runtime_Truth_Strategy_Factory_CN.md`.
+V62 adds ledger-backed Strategy, Demo, and Live projections, immutable
+versioned strategy execution policies, an explicit safe first-policy bootstrap,
+bounded autonomous research outcomes, and concise desktop/mobile control
+surfaces. It does not hot-patch the currently armed Demo process, approve or
+ARM a Release, create an order, enable Live, or add Withdraw capability.
