@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "alphapilot_v63_foundation_preregistration_v1",
+  "campaignId": "v63-local-first-server-foundation-20260724",
+  "status": "preregistered_before_implementation",
+  "registeredAt": "2026-07-24T00:00:00+08:00",
+  "authority": {
+    "frozenBaselineStatus": "accepted_baseline_frozen",
+    "consoleTag": "v13.27.1.62.4.2-runtime-ui-cutover",
+    "quantTag": "v13.27.1.62.4.1-formal-quant",
+    "docsTag": "v13.27.1.62.4.1-acceptance-docs"
+  },
+  "implementation": {
+    "architecture": "modular_monolith_independent_process_roles",
+    "roles": [
+      "control",
+      "market",
+      "demo",
+      "research",
+      "ai",
+      "factor"
+    ],
+    "mode": "shadow_no_order",
+    "serverProfile": "4vcpu_8gb",
+    "cloudDeployment": false
+  },
+  "parallelTracks": {
+    "trackA": "local_headless_shadow_no_order",
+    "trackB": "new_bounded_ai_strategy_campaign",
+    "trackC": "coverage_security_factor_qlib_observer_deployment"
+  },
+  "hardBoundaries": {
+    "demoArm": false,
+    "liveArm": false,
+    "orders": false,
+    "positions": false,
+    "withdraw": false,
+    "privateExchangeCredentials": false,
+    "automaticReleaseApproval": false
+  },
+  "successCriteria": [
+    "six roles start independently and report health",
+    "runtime identities bind exact config and deployment hashes",
+    "one active owner per environment-role lease scope",
+    "startup reconciliation fails closed",
+    "sqlite online backup and guarded restore pass",
+    "secret isolation and no-order tests pass",
+    "checkpoint resume rejects identity drift",
+    "foundation evidence is reproducible"
+  ],
+  "designPath": "docs/superpowers/specs/2026-07-24-v63-local-first-server-foundation-design.md",
+  "designSha256": "ddd8b6e11d1c1f03b1e9374c1e58d1b2dec061e38093bdddfa0f7ee206929e98",
+  "planPath": "docs/superpowers/plans/2026-07-24-v63-local-first-server-foundation.md",
+  "planSha256": "93ccd7d95a24aa8d361c68b124cbadf5f7851c90d120ed028c0a7681c235c162"
+}
